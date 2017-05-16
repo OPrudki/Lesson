@@ -1,0 +1,10 @@
+### Java
+*.class
+*.jar
+*.txt
+*.JP?G
+*.jp?g
+*.ini
+*~
+.git
+*.xlsx
