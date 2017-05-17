@@ -7,14 +7,21 @@ public class Main {
     public void main(String[] args) {
       System.out.println("Lesson 7");
 
-School school = new School();
-Group jelementary = new Group();
-Student student = new Student();
-Student student1 = new Student();
-Student student2 = new Student();
+// JelementaryGroup group1 = new JelementaryGroup();
 
-jelementary.addStudent(student1);
-jelementary.addStudent(student2);
+School school = new School("Hillel");
+Group group = new Group("Jelementary");
+Student student = new Student("Ivan");
+Student student1 = new Student("Maria");
+Student student2 = new Student("Mr Wolf");
+
+group.addStudent(student);
+group.addStudent(student1);
+group.addStudent(student2);
+
+school.addGroup(group);
+
+System.out.println(school);
 
 
     }

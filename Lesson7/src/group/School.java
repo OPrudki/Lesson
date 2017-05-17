@@ -2,11 +2,21 @@ package group;
 
 public class School {
     public void main(String[] args) {
-      System.out.println("Lesson 7");
 
-String mName;
-String mTitul;
-int mQuantityStudSchool;
+      String mName;
+      String mTitul;
+      int mQuantityStudSchool;
 
-    }
+  School (String name) {
+    mName = name;
   }
+
+  Group[] groups = new Group[10];
+  int size = 0;
+
+  public void addGroup(Group group) {
+  groups[size++] = group;
+  }
+
+  }
+}
