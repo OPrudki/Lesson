@@ -2,8 +2,8 @@
 *.class
 *.jar
 *.txt
-*.JP?G
-*.jp?g
+*.JPG
+*.jpg
 *.ini
 *~
 *.xlsx
