@@ -4,7 +4,7 @@ import group.School;
 import student.Student;
 
 public class Main {
-    public void main(String[] args) {
+   public static void main(String[] args) {
       System.out.println("Lesson 7");
 
 // JelementaryGroup group1 = new JelementaryGroup();

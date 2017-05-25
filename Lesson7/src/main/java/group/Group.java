@@ -1,12 +1,12 @@
 package group;
+import student.Student;
 
 public class Group {
-    public void main(String[] args) {
 
-      String mName;
-      int mQuantityStudent;
+      private String mName;
+      private int mQuantityStudent;
 
-      Group (String name) {
+      public Group (String name) {
         mName = name;
       }
 
@@ -17,7 +17,4 @@ public class Group {
       students[size] = student;
       size++;
       }
-
-
-    }
   }
